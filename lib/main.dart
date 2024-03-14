@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app_2024/pages/home_page.dart';
 
+// Complete TodoApp with Hive Database
+
 void main() async {
   // init the hive
   await Hive.initFlutter();
